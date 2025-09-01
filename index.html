@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotoExpress Argentina - Moto Mensajería en Buenos Aires | Cadetería Urgente</title>
+    <meta name="description" content="Servicio de moto mensajería en Buenos Aires y CABA. Cadetería urgente Argentina con entrega express. Mensajería rápida y confiable las 24 horas.">
+    <meta name="keywords" content="moto mensajería en Buenos Aires, cadetería urgente Argentina, mensajería express CABA, envíos rápidos Buenos Aires, cadetería 24 horas, mensajería urgente, delivery express Argentina">
+    <meta name="author" content="MotoExpress Argentina">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Spanish">
+    <meta name="geo.region" content="AR-C">
+    <meta name="geo.placename" content="Buenos Aires">
+    <meta name="geo.position" content="-34.6118;-58.3960">
+    <meta name="ICBM" content="-34.6118, -58.3960">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://motoexpress-argentina.com/">
+    <meta property="og:title" content="MotoExpress Argentina - Moto Mensajería en Buenos Aires">
+    <meta property="og:description" content="Servicio de moto mensajería en Buenos Aires y CABA. Cadetería urgente Argentina con entrega express las 24 horas.">
+    <meta property="og:image" content="https://motoexpress-argentina.com/images/og-image.jpg">
+    <meta property="og:locale" content="es_AR">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://motoexpress-argentina.com/">
+    <meta property="twitter:title" content="MotoExpress Argentina - Moto Mensajería en Buenos Aires">
+    <meta property="twitter:description" content="Servicio de moto mensajería en Buenos Aires y CABA. Cadetería urgente Argentina con entrega express las 24 horas.">
+    <meta property="twitter:image" content="https://motoexpress-argentina.com/images/twitter-image.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://motoexpress-argentina.com/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "MotoExpress Argentina",
+        "description": "Servicio de moto mensajería en Buenos Aires y CABA. Cadetería urgente Argentina con entrega express las 24 horas.",
+        "url": "https://motoexpress-argentina.com",
+        "telephone": "+54-11-5571-4614",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Av. Corrientes 1234",
+            "addressLocality": "Buenos Aires",
+            "addressRegion": "CABA",
+            "postalCode": "C1043",
+            "addressCountry": "AR"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -34.6118,
+            "longitude": -58.3960
+        },
+        "openingHours": "Mo-Su 00:00-23:59",
+        "serviceArea": {
+            "@type": "GeoCircle",
+            "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": -34.6118,
+                "longitude": -58.3960
+            },
+            "geoRadius": "50000"
+        },
+        "priceRange": "$$",
+        "image": "https://motoexpress-argentina.com/images/logo.jpg",
+        "sameAs": [
+            "https://www.facebook.com/motoexpressargentina",
+            "https://www.instagram.com/motoexpressargentina",
+            "https://wa.me/1155714614"
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Header Fijo -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-motorcycle"></i>
+                <span>MotoExpress Argentina</span>
+            </div>
+            
+            <!-- Menú de navegación desktop -->
+            <nav class="nav-desktop">
+                <ul class="nav-menu-desktop">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="precios.html">Precios</a></li>
+                    <li><a href="cobertura.html">Cobertura</a></li>
+                    <li><a href="corporativo.html">Clientes Corporativos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+                <button class="btn-primary">Solicitar un Mensajero</button>
+            </nav>
+            
+            <!-- Botón hamburguesa -->
+            <button class="hamburger-btn" aria-label="Menú" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            
+            <!-- Overlay para cerrar menú -->
+            <div class="mobile-overlay"></div>
+            
+            <!-- Menú móvil -->
+            <nav class="nav-mobile">
+                <div class="mobile-menu-header">
+                    <div class="mobile-logo">
+                        <i class="fas fa-motorcycle"></i>
+                        <span>MotoExpress</span>
+                    </div>
+                    <button class="close-menu" aria-label="Cerrar menú">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <ul class="nav-menu-mobile">
+                    <li><a href="#inicio"><i class="fas fa-home"></i>Inicio</a></li>
+                    <li><a href="servicios.html"><i class="fas fa-truck"></i>Servicios</a></li>
+                    <li><a href="precios.html"><i class="fas fa-dollar-sign"></i>Precios</a></li>
+                    <li><a href="cobertura.html"><i class="fas fa-map-marked-alt"></i>Cobertura</a></li>
+                    <li><a href="corporativo.html"><i class="fas fa-building"></i>Clientes Corporativos</a></li>
+                    <li><a href="contacto.html"><i class="fas fa-envelope"></i>Contacto</a></li>
+                </ul>
+                <div class="mobile-menu-footer">
+                    <button class="btn-primary btn-mobile">Solicitar un Mensajero</button>
+                    <div class="mobile-contact">
+                        <p><i class="fas fa-phone"></i> +54 11 5571-4614</p>
+                        <p><i class="fas fa-envelope"></i> info@motoexpress.com</p>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Entrega rápida, segura y en cualquier punto de la ciudad</h1>
+                <p>Conectamos tu negocio con la velocidad que necesita. Mensajería profesional en CABA y GBA.</p>
+                <a href="servicios.html" class="btn btn-primary">Ver Servicios</a>
+                <a href="contacto.html" class="btn btn-secondary">Solicitar Cotización</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Servicios -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Envíos Urgentes</h3>
+                    <p>Entrega en menos de 2 horas en CABA y zonas cercanas del GBA.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Mensajería Corporativa</h3>
+                    <p>Soluciones personalizadas para empresas con tarifas preferenciales.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Trámites</h3>
+                    <p>Gestión de documentos, pagos y trámites oficiales por vos.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Entregas Programadas</h3>
+                    <p>Planificá tus envíos con horarios específicos y fechas futuras.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Cadetería</h3>
+                    <p>Servicio de cadetes para múltiples entregas y rutas optimizadas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Precios -->
+    <section id="precios" class="pricing">
+        <div class="container">
+            <h2>Precios Transparentes</h2>
+            <p class="pricing-subtitle">Precios en pesos argentinos, sin costos ocultos</p>
+            <div class="pricing-table">
+                <div class="pricing-card">
+                    <h3>Envío Estándar</h3>
+                    <div class="price">$2.500</div>
+                    <ul>
+                        <li>Entrega en 4-6 horas</li>
+                        <li>Seguimiento básico</li>
+                        <li>CABA y zonas cercanas</li>
+                        <li>Hasta 5kg</li>
+                    </ul>
+                    <button class="btn-secondary">Elegir Plan</button>
+                </div>
+                <div class="pricing-card featured">
+                    <h3>Envío Urgente</h3>
+                    <div class="price">$4.200</div>
+                    <ul>
+                        <li>Entrega en 1-2 horas</li>
+                        <li>Seguimiento en tiempo real</li>
+                        <li>CABA y GBA</li>
+                        <li>Hasta 10kg</li>
+                    </ul>
+                    <button class="btn-primary">Más Popular</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Servicio Corporativo</h3>
+                    <div class="price">Consultar</div>
+                    <ul>
+                        <li>Tarifas preferenciales</li>
+                        <li>Facturación mensual</li>
+                        <li>Cobertura nacional</li>
+                        <li>Sin límite de peso</li>
+                    </ul>
+                    <button class="btn-secondary">Contactar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapa de Cobertura -->
+    <section id="cobertura" class="coverage">
+        <div class="container">
+            <h2>Zona de Cobertura</h2>
+            <div class="coverage-content">
+                <div class="coverage-map">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <p>CABA y Gran Buenos Aires</p>
+                    </div>
+                </div>
+                <div class="coverage-info">
+                    <h3>Cobertura Completa</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Ciudad Autónoma de Buenos Aires</li>
+                        <li><i class="fas fa-check"></i> Gran Buenos Aires (Zona Norte, Oeste y Sur)</li>
+                        <li><i class="fas fa-check"></i> Disponibilidad nacional para clientes corporativos</li>
+                        <li><i class="fas fa-check"></i> Entregas 24/7 en zonas principales</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Beneficios -->
+    <section class="benefits">
+        <div class="container">
+            <h2>¿Por qué elegir MotoExpress?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <h3>Rapidez</h3>
+                    <p>Entregas en tiempo récord con la mejor logística de la ciudad</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Seguimiento en Tiempo Real</h3>
+                    <p>Monitoreá tu envío desde el retiro hasta la entrega</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Mensajeros Asegurados</h3>
+                    <p>Todos nuestros mensajeros cuentan con seguro completo</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-headset"></i>
+                    <h3>Soporte 24/7</h3>
+                    <p>Atención al cliente las 24 horas, todos los días del año</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-file-invoice"></i>
+                    <h3>Facturación Electrónica</h3>
+                    <p>Recibí tu factura digital al instante</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>Lo que dicen nuestros clientes</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Excelente servicio, siempre puntuales y muy profesionales. Los recomiendo 100%."</p>
+                    <div class="client">- María González, Farmacia San Martín</div>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Desde que usamos MotoExpress, nuestras entregas llegaron al siguiente nivel. Rapidez y confiabilidad."</p>
+                    <div class="client">- Carlos Rodríguez, Empresa Logística del Sur</div>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Necesitaba enviar documentos urgentes y llegaron en tiempo récord. Servicio impecable."</p>
+                    <div class="client">- Ana Martínez, Particular</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Solicitar Servicio</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="orderForm">
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="retiro">Dirección de retiro</label>
+                            <input type="text" id="retiro" name="retiro" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="entrega">Dirección de entrega</label>
+                            <input type="text" id="entrega" name="entrega" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="servicio">Tipo de servicio</label>
+                            <select id="servicio" name="servicio" required>
+                                <option value="">Seleccionar servicio</option>
+                                <option value="urgente">Urgente (1-2 horas)</option>
+                                <option value="programado">Programado</option>
+                                <option value="corporativo">Corporativo</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn-primary">Enviar pedido</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Contacto Directo</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+54 11 5571-4614</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>+54 11 5571-4614</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>lugones.i.1992@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Av. Corrientes 1234, CABA</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-motorcycle"></i>
+                        <span>MotoExpress Argentina</span>
+                    </div>
+                    <p>Mensajería rápida y confiable en toda la ciudad</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p><i class="fas fa-phone"></i> +54 11 5571-4614</p>
+                    <p><i class="fab fa-whatsapp"></i> +54 11 5571-4614</p>
+                    <p><i class="fas fa-envelope"></i> lugones.i.1992@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Av. Corrientes 1234, CABA</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Horarios</h4>
+                    <p>Lunes a Viernes: 8:00 - 20:00</p>
+                    <p>Sábados: 9:00 - 18:00</p>
+                    <p>Domingos: 10:00 - 16:00</p>
+                    <p>Urgencias 24/7</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MotoExpress Argentina. Todos los derechos reservados.</p>
+                <a href="#">Políticas de Privacidad</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

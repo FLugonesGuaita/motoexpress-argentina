@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cobertura Moto Mensajería Buenos Aires | Zonas de Entrega CABA y GBA</title>
+    <meta name="description" content="Conoce nuestra cobertura de moto mensajería en Buenos Aires, CABA y Gran Buenos Aires. Entrega express en todas las zonas de la ciudad.">
+    <meta name="keywords" content="cobertura moto mensajería Buenos Aires, zonas entrega CABA, mensajería GBA, cadetería zona norte sur oeste">
+    <meta name="author" content="MotoExpress Argentina">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://motoexpress-argentina.com/cobertura.html">
+    <meta property="og:title" content="Cobertura Moto Mensajería Buenos Aires | Zonas de Entrega">
+    <meta property="og:description" content="Conoce nuestra cobertura de moto mensajería en Buenos Aires, CABA y Gran Buenos Aires.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://motoexpress-argentina.com/cobertura.html">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-motorcycle"></i>
+                <span>MotoExpress Argentina</span>
+            </div>
+            
+            <!-- Menú de navegación desktop -->
+            <nav class="nav-desktop">
+                <ul class="nav-menu-desktop">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="precios.html">Precios</a></li>
+                    <li><a href="cobertura.html" class="active">Cobertura</a></li>
+                    <li><a href="corporativo.html">Clientes Corporativos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+                <button class="btn-primary">Solicitar un Mensajero</button>
+            </nav>
+            
+            <!-- Botón hamburguesa -->
+            <button class="hamburger-btn" aria-label="Menú" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            
+            <!-- Overlay para cerrar menú -->
+            <div class="mobile-overlay"></div>
+            
+            <!-- Menú móvil -->
+            <nav class="nav-mobile">
+                <div class="mobile-menu-header">
+                    <div class="mobile-logo">
+                        <i class="fas fa-motorcycle"></i>
+                        <span>MotoExpress</span>
+                    </div>
+                    <button class="close-menu" aria-label="Cerrar menú">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <ul class="nav-menu-mobile">
+                    <li><a href="index.html"><i class="fas fa-home"></i>Inicio</a></li>
+                    <li><a href="servicios.html"><i class="fas fa-truck"></i>Servicios</a></li>
+                    <li><a href="precios.html"><i class="fas fa-dollar-sign"></i>Precios</a></li>
+                    <li><a href="cobertura.html" class="active"><i class="fas fa-map-marked-alt"></i>Cobertura</a></li>
+                    <li><a href="corporativo.html"><i class="fas fa-building"></i>Clientes Corporativos</a></li>
+                    <li><a href="contacto.html"><i class="fas fa-envelope"></i>Contacto</a></li>
+                </ul>
+                <div class="mobile-menu-footer">
+                    <button class="btn-primary btn-mobile">Solicitar un Mensajero</button>
+                    <div class="mobile-contact">
+                        <p><i class="fas fa-phone"></i> +54 11 5571-4614</p>
+                        <p><i class="fas fa-envelope"></i> info@motoexpress.com</p>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Área de Cobertura</h1>
+                <p>Llegamos a toda CABA y Gran Buenos Aires con la velocidad que necesitas</p>
+            </div>
+        </section>
+
+        <section class="coverage-map">
+            <div class="container">
+                <div class="map-container">
+                    <h2>Mapa de Zonas de Servicio</h2>
+                    <div class="interactive-map">
+                        <div class="map-visual">
+                            <div class="zone zone-1" data-zone="1">
+                                <span class="zone-label">Zona 1<br>CABA Centro</span>
+                            </div>
+                            <div class="zone zone-2" data-zone="2">
+                                <span class="zone-label">Zona 2<br>CABA Extendida</span>
+                            </div>
+                            <div class="zone zone-3" data-zone="3">
+                                <span class="zone-label">Zona 3<br>GBA Norte</span>
+                            </div>
+                            <div class="zone zone-4" data-zone="4">
+                                <span class="zone-label">Zona 4<br>GBA Sur/Oeste</span>
+                            </div>
+                        </div>
+                        <div class="map-legend">
+                            <h3>Leyenda</h3>
+                            <div class="legend-item">
+                                <div class="legend-color zone-1-color"></div>
+                                <span>Zona 1 - Entrega en 30-45 min</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color zone-2-color"></div>
+                                <span>Zona 2 - Entrega en 45-60 min</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color zone-3-color"></div>
+                                <span>Zona 3 - Entrega en 60-90 min</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color zone-4-color"></div>
+                                <span>Zona 4 - Entrega en 90-120 min</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="zone-details">
+            <div class="container">
+                <h2>Detalles por Zona</h2>
+                <div class="zones-grid">
+                    <div class="zone-card zona-1">
+                        <div class="zone-header">
+                            <h3><i class="fas fa-map-marker-alt"></i> Zona 1 - CABA Centro</h3>
+                            <span class="delivery-time">30-45 min</span>
+                        </div>
+                        <div class="zone-content">
+                            <h4>Barrios incluidos:</h4>
+                            <div class="neighborhoods">
+                                <span class="neighborhood">Microcentro</span>
+                                <span class="neighborhood">Puerto Madero</span>
+                                <span class="neighborhood">Recoleta</span>
+                                <span class="neighborhood">Palermo</span>
+                                <span class="neighborhood">Belgrano</span>
+                                <span class="neighborhood">Núñez</span>
+                                <span class="neighborhood">Retiro</span>
+                                <span class="neighborhood">San Nicolás</span>
+                            </div>
+                            <div class="zone-features">
+                                <div class="feature">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Servicio 24/7</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-bolt"></i>
+                                    <span>Entrega Express</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span>Cobertura Premium</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="zone-card zona-2">
+                        <div class="zone-header">
+                            <h3><i class="fas fa-map-marker-alt"></i> Zona 2 - CABA Extendida</h3>
+                            <span class="delivery-time">45-60 min</span>
+                        </div>
+                        <div class="zone-content">
+                            <h4>Barrios incluidos:</h4>
+                            <div class="neighborhoods">
+                                <span class="neighborhood">Caballito</span>
+                                <span class="neighborhood">Villa Crespo</span>
+                                <span class="neighborhood">San Telmo</span>
+                                <span class="neighborhood">La Boca</span>
+                                <span class="neighborhood">Barracas</span>
+                                <span class="neighborhood">Almagro</span>
+                                <span class="neighborhood">Balvanera</span>
+                                <span class="neighborhood">Once</span>
+                            </div>
+                            <div class="zone-features">
+                                <div class="feature">
+                                    <i class="fas fa-clock"></i>
+                                    <span>6:00 - 22:00</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-motorcycle"></i>
+                                    <span>Servicio Regular</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-map-marked-alt"></i>
+                                    <span>Cobertura Completa</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="zone-card zona-3">
+                        <div class="zone-header">
+                            <h3><i class="fas fa-map-marker-alt"></i> Zona 3 - GBA Norte</h3>
+                            <span class="delivery-time">60-90 min</span>
+                        </div>
+                        <div class="zone-content">
+                            <h4>Localidades incluidas:</h4>
+                            <div class="neighborhoods">
+                                <span class="neighborhood">Vicente López</span>
+                                <span class="neighborhood">San Isidro</span>
+                                <span class="neighborhood">Tigre</span>
+                                <span class="neighborhood">San Fernando</span>
+                                <span class="neighborhood">Martínez</span>
+                                <span class="neighborhood">Olivos</span>
+                                <span class="neighborhood">Acassuso</span>
+                                <span class="neighborhood">Beccar</span>
+                            </div>
+                            <div class="zone-features">
+                                <div class="feature">
+                                    <i class="fas fa-clock"></i>
+                                    <span>8:00 - 20:00</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-route"></i>
+                                    <span>Rutas Optimizadas</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-calendar-check"></i>
+                                    <span>Programación Requerida</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="zone-card zona-4">
+                        <div class="zone-header">
+                            <h3><i class="fas fa-map-marker-alt"></i> Zona 4 - GBA Sur/Oeste</h3>
+                            <span class="delivery-time">90-120 min</span>
+                        </div>
+                        <div class="zone-content">
+                            <h4>Localidades incluidas:</h4>
+                            <div class="neighborhoods">
+                                <span class="neighborhood">Avellaneda</span>
+                                <span class="neighborhood">Quilmes</span>
+                                <span class="neighborhood">Morón</span>
+                                <span class="neighborhood">Hurlingham</span>
+                                <span class="neighborhood">Ituzaingó</span>
+                                <span class="neighborhood">Lanús</span>
+                                <span class="neighborhood">Lomas de Zamora</span>
+                                <span class="neighborhood">Ramos Mejía</span>
+                            </div>
+                            <div class="zone-features">
+                                <div class="feature">
+                                    <i class="fas fa-clock"></i>
+                                    <span>9:00 - 18:00</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <span>Solo Programado</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-phone"></i>
+                                    <span>Confirmación Previa</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="coverage-stats">
+            <div class="container">
+                <h2>Estadísticas de Cobertura</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">48</div>
+                        <div class="stat-label">Barrios de CABA</div>
+                        <div class="stat-description">Cobertura completa en toda la Ciudad Autónoma</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">25</div>
+                        <div class="stat-label">Localidades GBA</div>
+                        <div class="stat-description">Servicio extendido al Gran Buenos Aires</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">2.8M</div>
+                        <div class="stat-label">Habitantes Cubiertos</div>
+                        <div class="stat-description">Población total en área de servicio</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">95%</div>
+                        <div class="stat-label">Entregas a Tiempo</div>
+                        <div class="stat-description">Puntualidad garantizada en todas las zonas</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="coverage-finder">
+            <div class="container">
+                <div class="finder-card">
+                    <h2>¿No estás seguro de tu zona?</h2>
+                    <p>Ingresa tu dirección y te diremos si llegamos y en cuánto tiempo</p>
+                    <form class="address-form" id="address-form">
+                        <div class="form-group">
+                            <input type="text" id="address" name="address" placeholder="Ingresa tu dirección completa" required>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-search"></i> Verificar Cobertura
+                            </button>
+                        </div>
+                    </form>
+                    <div class="coverage-result" id="coverage-result" style="display: none;">
+                        <div class="result-content">
+                            <h3>Resultado de Cobertura</h3>
+                            <div class="result-details">
+                                <span class="zone-result"></span>
+                                <span class="time-result"></span>
+                                <span class="price-result"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="expansion-info">
+            <div class="container">
+                <div class="expansion-content">
+                    <h2>Próximas Expansiones</h2>
+                    <p>Estamos trabajando constantemente para ampliar nuestra cobertura y llegar a más lugares.</p>
+                    <div class="expansion-grid">
+                        <div class="expansion-item">
+                            <h4><i class="fas fa-road"></i> 2024 Q2</h4>
+                            <p>Extensión a La Plata y alrededores</p>
+                        </div>
+                        <div class="expansion-item">
+                            <h4><i class="fas fa-map-marked"></i> 2024 Q3</h4>
+                            <p>Cobertura en Zona Oeste extendida</p>
+                        </div>
+                        <div class="expansion-item">
+                            <h4><i class="fas fa-clock"></i> 2024 Q4</h4>
+                            <p>Servicio 24/7 en todas las zonas</p>
+                        </div>
+                    </div>
+                    <div class="notify-expansion">
+                        <p>¿Tu zona no está cubierta aún? Déjanos tu email y te avisaremos cuando lleguemos.</p>
+                        <form class="notify-form">
+                            <input type="email" placeholder="tu@email.com" required>
+                            <button type="submit" class="btn btn-secondary">Notificarme</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-motorcycle"></i>
+                        <span>MotoExpress</span>
+                    </div>
+                    <p>Conectando Buenos Aires con velocidad y confianza.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="servicios.html">Envío Express</a></li>
+                        <li><a href="servicios.html">Mensajería Corporativa</a></li>
+                        <li><a href="servicios.html">Paquetería</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="cobertura.html">Cobertura</a></li>
+                        <li><a href="precios.html">Precios</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p><i class="fas fa-phone"></i> +54 11 5571-4614</p>
+                    <p><i class="fas fa-envelope"></i> lugones.i.1992@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MotoExpress Argentina. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Simulador de verificación de cobertura
+        document.getElementById('address-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const address = document.getElementById('address').value.toLowerCase();
+            const result = document.getElementById('coverage-result');
+            
+            // Simulación simple basada en palabras clave
+            let zone, time, available = true;
+            
+            if (address.includes('microcentro') || address.includes('puerto madero') || address.includes('recoleta') || address.includes('palermo')) {
+                zone = 'Zona 1 - CABA Centro';
+                time = '30-45 minutos';
+            } else if (address.includes('caballito') || address.includes('villa crespo') || address.includes('san telmo')) {
+                zone = 'Zona 2 - CABA Extendida';
+                time = '45-60 minutos';
+            } else if (address.includes('vicente lopez') || address.includes('san isidro') || address.includes('tigre')) {
+                zone = 'Zona 3 - GBA Norte';
+                time = '60-90 minutos';
+            } else if (address.includes('avellaneda') || address.includes('quilmes') || address.includes('moron')) {
+                zone = 'Zona 4 - GBA Sur/Oeste';
+                time = '90-120 minutos';
+            } else {
+                available = false;
+            }
+            
+            if (available) {
+                result.querySelector('.zone-result').innerHTML = `<i class="fas fa-map-marker-alt"></i> ${zone}`;
+                result.querySelector('.time-result').innerHTML = `<i class="fas fa-clock"></i> Tiempo estimado: ${time}`;
+                result.querySelector('.price-result').innerHTML = `<i class="fas fa-calculator"></i> <a href="precios.html">Ver tarifas para esta zona</a>`;
+            } else {
+                result.querySelector('.zone-result').innerHTML = `<i class="fas fa-exclamation-triangle"></i> Zona no cubierta actualmente`;
+                result.querySelector('.time-result').innerHTML = `<i class="fas fa-info-circle"></i> Te avisaremos cuando lleguemos a tu zona`;
+                result.querySelector('.price-result').innerHTML = `<i class="fas fa-envelope"></i> <a href="contacto.html">Contactanos para más información</a>`;
+            }
+            
+            result.style.display = 'block';
+        });
+    </script>
+</body>
+</html>
